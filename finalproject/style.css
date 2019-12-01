@@ -63,9 +63,9 @@ div.tooltip-donut {
 }
 
 #map-chart {
-	width: 900px;
+	width: 950px;
 	height: 600px;
-	/*margin-top: 50px;*/
+	margin-top: 50px;
 	float: left;
 }
 
@@ -228,4 +228,18 @@ div.tooltip-donut {
 	border-radius: 8px;
 	pointer-events: none;
 	font-size: 1.3rem;
+}
+g > text {
+	padding-left: 30px;
+	max-width: 900px;
+	/*min-height: 100px;*/
+}
+.text-blurb {
+	display:inline-block;
+	float:left;
+	padding-top:5px;
+	padding-left:30px;
+	max-width: 900px;
+	/*min-height: 100px;*/
+	font-size: 13px;
 }

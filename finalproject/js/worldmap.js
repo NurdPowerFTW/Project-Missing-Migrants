@@ -221,6 +221,12 @@ class worldmap {
                     .duration('50')
                     .style("opacity", 0);
             });
+        d3.select("#buttons").append("div").attr("class", "text-blurb")
+            .append("text").text("Missing migrants: The migrants start from the black point and missing or dead in the red point. Use the slider to decide" +
+            " how many route you want to see. To get more detail, hover over the route or incident point (red point). When hover over the incident point, you can see the " +
+            "related nationality of the migrants highlight in the table.")
+            .attr("x", 100)
+            .attr("y", 10)
     }
     updateRoutePlot(activeRoute) {
         this.storyButton.on("click", showExtreme)
